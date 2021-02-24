@@ -1,0 +1,79 @@
+*,
+ ::before,
+ ::after {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+
+/* font-size: 62.5%; */
+
+body {
+    background-color: #F7F0F0;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.container {
+    width: 200px;
+    height: auto;
+    background-color: orange;
+    margin: 50px auto;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+
+/* @media screen and (max-width: 800px) { */
+
+
+/* .container {
+        font-size: 1rem;
+    } */
+
+
+/* html {
+        font-size: 12px;
+    }
+} */
+
+p::first-letter {
+    color: green;
+    font-size: 2rem;
+}
+
+
+/* @media screen and (max-width: 900px) and (min-width: 801px) { */
+
+
+/* .container {
+        font-size: 2rem;
+    } */
+
+
+/* html {
+        font-size: 4px;
+    }
+} */
+
+@media screen and (min-width: 400px) {}
